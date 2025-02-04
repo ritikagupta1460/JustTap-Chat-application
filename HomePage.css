@@ -1,0 +1,90 @@
+
+
+/* HomePage Container */
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  width: 100%;
+  height: 100vh;
+}
+
+/* Home Container */
+.home-container {
+  text-align: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Title Styling */
+.home-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Subtitle Styling */
+.home-subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Button Styling */
+.home-button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.home-button:hover {
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+  /* transform: scale(1.05); */
+}
+
+/* .home-button:active {
+  transform: scale(0.97);
+} */
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .home-container {
+    padding: 20px;
+  }
+
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .home-button {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,132 @@
+/* Sidebar container */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+/* Sidebar header */
+.sidebar-header {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+/* Search bar */
+.sidebar-search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: #f0f0f0;
+  padding: 5px 10px;
+}
+
+.sidebar-search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.sidebar-search-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar-search-icon {
+  color: #555;
+}
+
+/* Sidebar action buttons */
+.sidebar-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.sidebar-action-btn {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-action-btn:hover {
+  background: #0056b3;
+}
+
+.sidebar-action-icon {
+  margin-right: 5px;
+}
+
+/* Chat list */
+.sidebar-chat-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-chat-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.sidebar-chat-item:hover {
+  background: #f0f0f0;
+}
+
+.sidebar-chat-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.sidebar-chat-avatar-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.sidebar-chat-info {
+  flex: 1;
+}
+
+.sidebar-chat-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.sidebar-chat-message {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
